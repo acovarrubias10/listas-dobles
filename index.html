@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inventario</title>
+</head>
+<body>
+    <div>
+        <h1>App para control de Inventario usando listas enlazadas dobles</h1>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Agregar nuevo producto</h2>
+        </div>
+        <div>
+            <label for="codigo">Código del producto:</label>
+            <input id="codigo" type="text">
+        </div>
+        <div>
+            <label for="nombre">Nombre del producto:</label>
+            <input id="nombre" type="text">
+        </div>
+        <div>
+            <label for="descripcion">Descripción del producto:</label>
+            <input id="descripcion" type="text">
+        </div>
+        <div>
+            <label for="cantidad">Cantidad del producto:</label>
+            <input id="cantidad" type="text">
+        </div>
+        <div>
+            <label for="costo">Costo del producto:</label>
+            <input id="costo" type="text">
+        </div>
+
+        <button id="btn1">Agregar nuevo producto</button>
+    </div>
+    <div class="container">
+        <div>
+            <h2>Borrar producto por código</h2>
+        </div>
+        <div>
+            <label for="productoborrar">Código del producto:</label>
+            <input id="productoborrar" type="text">
+        </div>
+
+        <button id="btn3">Borrar producto</button>
+        <button id="btn4">Borrar producto inicial</button>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Buscar Producto</h2>
+        </div>
+        <div>
+            <label for="productobuscar">Código del producto:</label>
+            <input id="productobuscar" type="text">
+        </div>
+        <button id="btn5">Buscar producto</button>
+    </div>
+
+    <div>
+        <div>
+            <h2>Listar productos</h2>
+        </div>
+        <button id="btn6">Listar productos</button>
+        <button id="btn7">Listar productos inversamente</button>
+        <div>
+            <ul id="listadoProductos"></ul>
+        </div>
+
+    </div>
+</body>
+<script src="aplicacion.js" type="module"></script>
+</html>
